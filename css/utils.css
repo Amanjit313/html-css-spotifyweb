@@ -1,0 +1,19 @@
+/* WIDHT */
+.w90{
+  width: 90%;
+}
+
+/* CENTER */
+.center{
+  margin: 0 auto;
+}
+
+.total-center{
+  justify-content: center;
+  align-items: center;
+}
+
+/* FLEX */
+.flex{
+  display: flex;
+}
