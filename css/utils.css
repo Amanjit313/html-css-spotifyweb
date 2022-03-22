@@ -4,6 +4,12 @@
   background-color: beige;
 }
 
+.d50{
+  height: 50px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
 .d100{
   height: 100px;
   background-color: aqua;
@@ -42,6 +48,14 @@
 
 .total-center{
   justify-content: center;
+  align-items: center;
+}
+
+.center-dx-sx{
+  justify-content: center;
+}
+
+.center-top-bottom{
   align-items: center;
 }
 
