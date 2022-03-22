@@ -6,10 +6,9 @@ main{
   background-color: grey;
 }
 
-/* Main Menu */
+/* Main Menu */                           /* Main - Part 1 */
 .main-menu{
   width: 200px;
-  height: 100%;
   background-color: black;
 }
 
@@ -40,11 +39,84 @@ main{
   background-color: palegoldenrod;
 }
 
-/* Main Content */
+/* Main Content */                           /* Main - Parte 2 */
 .main-content{
   width: calc(100% - 200px);
-  height: 100%;
   background-color: #141922;
+  overflow-y: auto;
+}
+
+/* Upgrade Button */
+.upgrade-button{
+  height: 100px;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  width: 100%;
+}
+
+/* Songs Container */
+.songs-container{
+  height: calc(100% - 100px);
+}
+
+/* Songs Menu */
+.songs-menu{
+  height: 30px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.recently-played-title,
+.created-by-id-title,
+.popular-artist-title{
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+.recently-played-card,
+.created-by-id-card,
+.popular-artist-card{
+  height: 250px;
+  background-color: white;
+  width: 200px;
+  margin-right: 5%;
+}
+
+.recently-played-card-img,
+.created-by-id-card-img,
+.popular-artist-card-img{
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.recently-played-card-text,
+.created-by-id-card-text,
+.popular-artist-card-text{
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* Recently Played */
+.recently-played{
+  min-height: 30vh;
+  background-color: wheat;
+  margin-bottom: 50px;
+}
+
+/* Created By ID */
+.created-by-id{
+  min-height: 30vh;
+  background-color: wheat;
+  margin-bottom: 50px;
+}
+
+/* Popular Artist */
+.popular-artist{
+  min-height: 30vh;
+  background-color: wheat;
 }
 
 /* 

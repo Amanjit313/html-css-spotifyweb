@@ -23,6 +23,10 @@
 }
 
 /* WIDHT */
+.w98{
+  width: 98%;
+}
+
 .w90{
   width: 90%;
 }
@@ -41,6 +45,10 @@
   align-items: center;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /* FLEX */
 .flex{
   display: flex;
@@ -57,4 +65,13 @@
 .column{
   flex-direction: column;
 }
-/* POSITION */
+
+.space-between{
+  justify-content: space-between;
+}
+
+/* NAV REGOLE */
+a{
+  text-decoration: none;
+  color: white;
+}
