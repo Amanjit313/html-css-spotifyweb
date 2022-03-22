@@ -8,16 +8,43 @@ main{
 
 /* Main Menu */
 .main-menu{
-  width: 12%;
+  width: 200px;
   height: 100%;
-  background-color: lightblue;
+  background-color: black;
+}
+
+/* Menu Container */
+.menu-container{
+  background-color: grey;
+  height: 100%;
+}
+
+/* Logo */
+.menu-logo{
+  height: 100px;
+  background-color: violet;
+}
+
+.menu-search{
+  height: 100px;
+  background-color: blue;
+}
+
+.menu-playlist{
+  height: calc(100% - 300px);
+  background-color: yellow;
+}
+
+.menu-user-download{
+  height: 100px;
+  background-color: palegoldenrod;
 }
 
 /* Main Content */
 .main-content{
-  width: 88%;
+  width: calc(100% - 200px);
   height: 100%;
-  background-color: lightskyblue;
+  background-color: #141922;
 }
 
 /* 
@@ -29,7 +56,7 @@ main{
 */
 footer{
   height: 100px;
-  background-color: darkgray;
+  background-color: #282828;
   flex-basis: 100px;
 }
 

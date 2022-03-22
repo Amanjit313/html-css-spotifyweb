@@ -1,6 +1,34 @@
+/* DEBUG */
+.debug{
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.d100{
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.d300{
+  height: 300px;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.d500{
+  height: 500px;
+  background-color: azure;
+  border: 1px solid black;
+}
+
 /* WIDHT */
 .w90{
   width: 90%;
+}
+
+.w80{
+  width: 80%;
 }
 
 /* CENTER */
@@ -17,3 +45,16 @@
 .flex{
   display: flex;
 }
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.column{
+  flex-direction: column;
+}
+/* POSITION */
