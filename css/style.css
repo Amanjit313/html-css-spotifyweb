@@ -179,12 +179,16 @@ main{
 footer{
   height: 100px;
   background-color: #282828;
-  flex-basis: 100px;
 }
 
 /* Music-Overlay */
 
 /* Music-Overlay Left*/
+.music-overlay-left{
+  flex-shrink: 2;
+  min-width: 200px;
+}
+
 .song img{
   width: 3rem;
   margin-left: 10px;
@@ -219,10 +223,77 @@ footer{
 }
 
 /* Music-Overlay Center*/
+.music-overlay-center{
+  flex-shrink: 0;
+  width: calc(100% - 1000px);
+  min-width: 300px;
+  text-align: center;
+}
+
+.music-overlay-center i{
+  color: white;
+  margin-left: 20px;
+  font-size: 1.4rem;
+}
+
+.costum-play{
+  padding: 6px 8px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.costum-play:hover{
+  transform: scale(1.1);
+}
+
+.song-duration{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.song-start-time,
+.song-total-duration{
+  font-size: .7rem;
+  color: white;
+}
+
+.song-start-time{
+  width: 30px;
+}
+
+.song-duration-overlay{
+  width: calc(100% - 60px);
+}
+
+.song-duration-overlay-level{
+  height: 5px;
+  width: 95%;
+  background-color: #707070;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 4.5px;
+}
+
+.song-duration-overlay-play-level{
+  height: 5px;
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.song-duration-overlay-play-level:hover{
+  background-color: lightgreen;
+}
+
+.song-total-duration{
+  width: 30px;
+}
 
 /* Music-Overlay Right*/
 .music-overlay-right{
   margin-right: 10px;
+  flex-shrink: 2;
+  min-width: 200px;
 }
 
 .music-overlay-right i{
