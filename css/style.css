@@ -14,29 +14,79 @@ main{
 
 /* Menu Container */
 .menu-container{
-  background-color: grey;
   height: 100%;
+  overflow: hidden;
 }
 
 /* Logo */
 .menu-logo{
-  height: 100px;
-  background-color: violet;
+  margin: 10px 0px;
+  width: 8rem;
+  margin-bottom: 20px;
 }
 
+/* Search */
 .menu-search{
-  height: 100px;
-  background-color: blue;
+  margin-bottom: 20px;
 }
 
+.menu-search i{
+  width: 12%;
+  font: 100px;
+  margin-bottom: 8px;
+}
+
+/* Playlist */
 .menu-playlist{
-  height: calc(100% - 300px);
-  background-color: yellow;
+  overflow-y: hidden;
+  height: calc(100% - 200px);
 }
 
+.menu-playlist h5{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.create-playlist i{
+  font-size: 2.5rem;
+}
+
+.create-playlist span{
+  padding: 10px 5px;
+}
+
+.menu-playlist p{
+  margin: 14px 0px;
+}
+
+/* User Download */
 .menu-user-download{
-  height: 100px;
-  background-color: palegoldenrod;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.menu-user-download hr{
+  border: 1px solid #707070;
+  margin: 10px 0px;
+}
+
+/* Download */
+.download i{
+  font-size: .8rem;
+}
+
+/* User */
+.user img{
+  width: 2rem;
+  background-color: grey;
+  border-radius: 50%;
+  padding: 2px 3px;
+}
+
+.user span{
+  margin-top: 8px;
+  margin-left: 8px;
+  color: white;
 }
 
 /* Main Content */                           /* Main - Parte 2 */
