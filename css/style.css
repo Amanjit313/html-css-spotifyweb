@@ -186,14 +186,14 @@ footer{
 
 /* Music-Overlay Left*/
 .song img{
-  width: 2.5rem;
+  width: 3rem;
   margin-left: 10px;
 }
 
 .song-text{
-  font-size: .7rem;
+  font-size: .8rem;
   margin-left: 8px;
-  margin-top: 7px;
+  margin-top: 9px;
 }
 
 .song-text strong{
@@ -201,7 +201,7 @@ footer{
 }
 
 .song-text p{
-  font-size: .65rem;
+  font-size: .75rem;
 }
 
 .song-text p:hover{
@@ -215,11 +215,60 @@ footer{
 
 .song-options i{
   margin-left: 10px;
+  font-size: 1.1rem;
 }
 
 /* Music-Overlay Center*/
 
 /* Music-Overlay Right*/
+.music-overlay-right{
+  margin-right: 10px;
+}
+
+.music-overlay-right i{
+  color: white;
+  font-size: 1rem;
+  margin-left: 14px;
+}
+
+.music-audio{
+  width: 125px;
+  height: 10px;
+  margin-top: 3px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.music-audio-overlay{
+  background-color: #707070;
+  width: 125px;
+  height: 5px;
+}
+
+.music-audio-level{
+  background-color: white;
+  width: 32%;
+  height: 5px;
+  border-radius: 10px;
+  margin-top: 2.5px;
+}
+
+.music-audio-level:hover{
+  background-color: lightgreen;
+}
+
+.music-audio i{
+  margin-left: 35px;
+  font-size: .7rem;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.music-audio:hover i{
+  display: inline;
+}
 
 /* 
   /FOOTER 
