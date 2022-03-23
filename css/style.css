@@ -185,6 +185,37 @@ footer{
 /* Music-Overlay */
 
 /* Music-Overlay Left*/
+.song img{
+  width: 2.5rem;
+  margin-left: 10px;
+}
+
+.song-text{
+  font-size: .7rem;
+  margin-left: 8px;
+  margin-top: 7px;
+}
+
+.song-text strong{
+  color: white;
+}
+
+.song-text p{
+  font-size: .65rem;
+}
+
+.song-text p:hover{
+  text-decoration: underline;
+}
+
+.song-options{
+  margin-left: 20px;
+  color: #707070;
+}
+
+.song-options i{
+  margin-left: 10px;
+}
 
 /* Music-Overlay Center*/
 
