@@ -94,6 +94,10 @@ a{
   color: white;
 }
 
+ul{
+  list-style: none;
+}
+
 /* FLOAT */
 .float-left{
   float: left;
