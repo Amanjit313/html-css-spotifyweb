@@ -84,6 +84,10 @@
   justify-content: space-between;
 }
 
+.flex-end{
+  justify-content: flex-end;
+}
+
 /* NAV REGOLE */
 a{
   text-decoration: none;
@@ -93,6 +97,10 @@ a{
 /* FLOAT */
 .float-left{
   float: left;
+}
+
+.float-right{
+  float: right;
 }
 
 /* CLEARFIX */
