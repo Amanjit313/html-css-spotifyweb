@@ -1,5 +1,88 @@
-@media screen and (max-height: 400px){
+@media screen and (max-width:1200px){
 
+  /* .recently-played-card-container{
+    flex-wrap: wrap;
+  } */
+
+}
+
+@media screen and (max-width:950px){
+
+  /* .recently-played-card-container{
+    flex-wrap: nowrap;
+  } */
+}
+
+@media screen and (max-width:750px){
+
+
+  /* FOOTER */
+  /* Overlay-Left */
+  .song-options{
+    flex-wrap: wrap;
+    width: .1rem;
+    margin-left: 10px;
+  }
+
+  .song img{
+    width: 3rem;
+    margin-left: 2px;
+  }
+
+  .song-text{
+    font-size: .7rem;
+    margin-left: 4px;
+    margin-top: 9px;
+  }
+
+  .song-text p{
+    font-size: .55rem;
+  }
+  /* Overlay-Center */
+  .music-overlay-center i{
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+
+  /* Overlay-Right */
+  .music-overlay-right{
+    margin-right: 1px;
+  }
+
+  .music-overlay-right i{
+    color: white;
+    font-size: .9rem;
+    margin-left: 4px;
+  }
+
+  .music-audio{
+    margin-left: 3px;
+  }
+
+  .music-audio i{
+    margin-left: 30px;
+  }
+
+}
+
+@media screen and (max-width:580px){
+
+  /* FOOTER */
+  /* Overlay-Center */
+  .music-overlay-center{
+    margin-top: 10px;
+  }
+
+  /* Overlay-Right */
+  .music-audio{
+    width: 75px;
+  }
   
-
+  .music-audio-overlay{
+    width: 75px;
+  }
+  
+  .music-audio-level{
+    width: 32%;
+  }
 }

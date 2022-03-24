@@ -154,7 +154,7 @@ main{
   color: white;
 }
 
-/* Songs Card Size */
+/* Songs Card Size - Recently Played, Created By ID, Popular Artist*/
 .recently-played-title,
 .created-by-id-title,
 .popular-artist-title{
@@ -242,6 +242,10 @@ main{
   margin-bottom: 50px;
 }
 
+.recently-played-card-container{
+  display: flex;
+}
+
 /* Created By ID */
 .created-by-id{
   margin-bottom: 50px;
@@ -271,8 +275,6 @@ footer{
 
 /* Music-Overlay Left*/
 .music-overlay-left{
-  flex-shrink: 2;
-  min-width: 200px;
 }
 
 .song img{
@@ -310,9 +312,8 @@ footer{
 
 /* Music-Overlay Center*/
 .music-overlay-center{
-  flex-shrink: 0;
   width: calc(100% - 1000px);
-  min-width: 300px;
+  min-width: 229px;
   text-align: center;
 }
 
@@ -378,8 +379,6 @@ footer{
 /* Music-Overlay Right*/
 .music-overlay-right{
   margin-right: 10px;
-  flex-shrink: 2;
-  min-width: 200px;
 }
 
 .music-overlay-right i{
@@ -394,12 +393,14 @@ footer{
   margin-top: 3px;
   margin-left: 10px;
   position: relative;
+  border-radius: 10px;
 }
 
 .music-audio-overlay{
   background-color: #707070;
   width: 125px;
   height: 5px;
+  border-radius: 10px;
 }
 
 .music-audio-level{
