@@ -179,8 +179,9 @@ main{
 .recently-played-card,
 .created-by-id-card,
 .popular-artist-card{
-  width: 200px;
+  width: calc(100% / 6);
   margin-right: 5%;
+  margin-bottom: 10px;
 }
 
 .recently-played-card-img,
