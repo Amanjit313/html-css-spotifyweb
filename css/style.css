@@ -259,9 +259,6 @@ main{
 }
 
 /* Popular Artist */
-.popular-artist{
-}
-
 .popular-artist-card-img img{
   border-radius: 50%;
 }
@@ -281,9 +278,6 @@ footer{
 /* Music-Overlay */
 
 /* Music-Overlay Left*/
-.music-overlay-left{
-}
-
 .song img{
   width: 3rem;
   margin-left: 10px;

@@ -80,6 +80,52 @@
 
 @media screen and (max-width:580px){
 
+  /* MAIN MENU - Parte 1*/
+  .main-menu{
+    width: 50px;
+  }
+
+  .menu-search > div i{
+    font-size: 1.5rem;
+    margin-left: 5px;
+  }
+  
+  .menu-search > div span{
+    display: none;
+  }
+  
+  .menu-playlist > div,
+  .menu-playlist > h5{
+    display: none;
+  }
+  
+  .menu-user-download > div span{
+    display: none;
+  }
+  
+  .menu-user-download > div i{
+    margin-left: 13px;
+    margin-bottom: 10px;
+  }
+
+  .menu-user-download > div img{
+    margin-left: 4px;
+  }
+
+  .menu-user-download hr{
+    display: none;
+  }
+  
+  /* MAIN CONTENT - Parte 2*/
+  .upgrade-button-container{
+    width: calc(100% - 50px);
+
+  }
+
+  .main-content{
+    width: calc(100% - 50px);
+  }
+
   /* FOOTER */
   /* Overlay-Center */
   .music-overlay-center{
