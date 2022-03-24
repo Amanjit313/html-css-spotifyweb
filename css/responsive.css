@@ -1,16 +1,26 @@
 @media screen and (max-width:1200px){
 
-  /* .recently-played-card-container{
+  .recently-played-card-container{
     flex-wrap: wrap;
-  } */
+  }
 
 }
 
 @media screen and (max-width:950px){
 
-  /* .recently-played-card-container{
-    flex-wrap: nowrap;
-  } */
+  .recently-played-card-container{
+    /* flex-wrap: nowrap; */
+  }
+}
+
+@media screen and (max-width:880px){
+
+  /* MAIN */
+  /* Song Menu */
+  .songs-menu li{
+    float: left;
+  }
+
 }
 
 @media screen and (max-width:750px){
