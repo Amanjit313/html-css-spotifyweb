@@ -33,7 +33,20 @@ main{
 .menu-search i{
   width: 12%;
   font: 100px;
+}
+
+.home,
+.cerca,
+.la-tua-libreria{
   margin-bottom: 8px;
+}
+
+.menu-search-hover{
+  margin-bottom: 8px;
+}
+
+.menu-search-hover:active{
+  border-left: 2px solid lightgreen;
 }
 
 /* Playlist */
@@ -72,6 +85,7 @@ main{
 .menu-user-download hr{
   border: 1px solid #707070;
   margin: 10px 0px;
+  margin-left: 10%;
 }
 
 /* Download */
