@@ -154,10 +154,15 @@ main{
   margin-left: 20px;
   color: #707070;
   margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .songs-menu a:hover{
   color: white;
+}
+
+.songs-menu a:active{
+  border-bottom: 1px solid lightgreen;
 }
 
 /* Songs Card Size - Recently Played, Created By ID, Popular Artist*/
