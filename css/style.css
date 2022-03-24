@@ -53,6 +53,7 @@ main{
 .menu-playlist{
   overflow-y: hidden;
   height: calc(100% - 200px);
+  overflow-y: scroll;
 }
 
 .menu-playlist h5{
@@ -69,7 +70,7 @@ main{
 }
 
 .name-playlist{
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .menu-playlist p{
