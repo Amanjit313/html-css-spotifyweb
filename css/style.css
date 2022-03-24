@@ -107,6 +107,7 @@ main{
   top: 0;
   right: 0;
   width: calc(100% - 200px);
+  z-index: 999;
 }
 
 .upgrade-button{
