@@ -55,6 +55,10 @@ main{
   padding: 10px 5px;
 }
 
+.name-playlist{
+  overflow-y: auto;
+}
+
 .menu-playlist p{
   margin: 14px 0px;
 }
@@ -128,7 +132,7 @@ main{
 .songs-menu{
   margin-top: 130px;
   margin-bottom: 30px;
-  width: 40%;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   min-width: 300px;
