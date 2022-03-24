@@ -158,15 +158,22 @@ main{
 .recently-played-title,
 .created-by-id-title,
 .popular-artist-title{
-  height: 50px;
-  background-color: whitesmoke;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.recently-played-title p,
+.created-by-id-title p,
+.popular-artist-title p{
+  color: #707070;
+  font-size: .8rem;
+  margin-top: 5px;
 }
 
 .recently-played-card,
 .created-by-id-card,
 .popular-artist-card{
-  height: 250px;
-  background-color: white;
   width: 200px;
   margin-right: 5%;
 }
@@ -174,37 +181,78 @@ main{
 .recently-played-card-img,
 .created-by-id-card-img,
 .popular-artist-card-img{
-  height: 200px;
-  background-color: white;
-  border: 1px solid black;
+  position: relative;
+}
+
+.recently-played-card-img img,
+.created-by-id-card-img img,
+.popular-artist-card-img img{
+  width: 100%;
+}
+
+.play-song{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 11px 14px;
+  border-radius: 50%;
+  border: 5px solid white;
+  font-size: 2rem;
+  display: none;
+}
+
+.recently-played-card-img img:hover,
+.created-by-id-card-img img:hover,
+.popular-artist-card-img img:hover{
+  opacity: 50%;
+}
+
+.recently-played-card-img:hover .play-song,
+.created-by-id-card-img:hover .play-song,
+.popular-artist-card-img:hover .play-song{
+  display: block;
+  cursor: pointer;
 }
 
 .recently-played-card-text,
 .created-by-id-card-text,
 .popular-artist-card-text{
-  height: 50px;
-  background-color: white;
-  border: 1px solid black;
+  text-align: center;
+}
+
+.recently-played-card-text h4,
+.created-by-id-card-text h4,
+.popular-artist-card-text h4{
+  color: white;
+  margin: 5px 0px;
+}
+
+
+.recently-played-card-text p,
+.created-by-id-card-text p,
+.popular-artist-card-text p{
+  color: #707070;
+  font-size: .8rem;
 }
 
 /* Recently Played */
 .recently-played{
-  min-height: 30vh;
-  background-color: wheat;
   margin-bottom: 50px;
 }
 
 /* Created By ID */
 .created-by-id{
-  min-height: 30vh;
-  background-color: wheat;
   margin-bottom: 50px;
 }
 
 /* Popular Artist */
 .popular-artist{
-  min-height: 30vh;
-  background-color: wheat;
+}
+
+.popular-artist-card-img img{
+  border-radius: 50%;
 }
 
 /* 
